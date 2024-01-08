@@ -234,6 +234,94 @@
     margin-bottom: 20px;
 }
 
-.happy-new-year{
+.happy-new-year {
     width: 80px;
+}
+
+/*Sale Style*/
+
+.sale {
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sale-heading {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin: 10px;
+}
+
+.sale-title {
+    color: #FF0000;
+    font-size: 70px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    margin: 27px;
+}
+
+.text-primary {
+    color: #070211;
+    font-size: 70px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+
+.line {
+    margin-left: 80px;
+    margin-top: -2px;
+    height: 150px;
+    width: 90%;
+    background-size: cover;
+}
+
+.sale-images {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 65px;
+}
+
+.gift-img {
+    position: absolute;
+    left: 90px;
+    top: 138px;
+    box-shadow: 2px 2px 2px solid black;
+}
+
+.sale-images .badge {
+    background: url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+}
+
+.badge {
+    position: relative;
+    width: 495px;
+    height: 435px;
+}
+
+.badge-img {
+    position: absolute;
+    right: 333px;
+    bottom: 48px;
+}
+
+
+/*Portfolio Style*/
+
+.portfolio-content {
+    margin-top: 120px;
+    margin-left: 90px;
+    height: 155px;
+    width: 90%;
+}
+
+.portfolio-img{
+    display: flex;
+    gap:25px;
+}
+
+.port-img{
+    
 }
