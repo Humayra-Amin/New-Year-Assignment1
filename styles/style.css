@@ -211,6 +211,7 @@
     font-size: 15px;
     font-weight: 200;
     font-family: 'Inter';
+    margin-bottom: 25px;
 }
 
 .new-year-img {
@@ -230,4 +231,9 @@
     font-size: 50px;
     font-family: 'Inter';
     font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.happy-new-year{
+    width: 80px;
 }
