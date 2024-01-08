@@ -403,3 +403,68 @@
     background-color: pink;
     color: #070211;
 }
+
+/*Footer Style*/
+
+footer {
+    background: rgba(7, 2, 17, 1);
+    width: 90%;
+    height: 640px;
+    margin-left: 80px;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.first-para {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-para {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+hr.hrline {
+    background-color: #a3a3a3;
+    margin-bottom: 33px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.unsubs {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+hr.lines{
+    background-color: #a3a3a3;
+    margin-top: 23px;
+}
