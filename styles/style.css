@@ -408,9 +408,8 @@
 
 footer {
     background: rgba(7, 2, 17, 1);
-    width: 90%;
+    width: 100%;
     height: 640px;
-    margin-left: 80px;
 }
 
 .headings {
