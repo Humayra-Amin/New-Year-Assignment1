@@ -317,14 +317,14 @@
     width: 90%;
 }
 
-.portfolio-heading{
+.portfolio-heading {
     color: #FF0000;
     font-size: 20px;
     font-family: 'Inter';
     font-weight: 500;
 }
 
-.portfolio-title{
+.portfolio-title {
     color: #070211;
     font-size: 50px;
     font-family: 'Merriweather';
@@ -333,16 +333,73 @@
     margin-top: -26px;
 }
 
-.first-section{
+.first-section {
     display: flex;
     margin-left: 85px;
     margin-top: 25px;
     gap: 25px;
 }
 
-.second-section{
+.second-section {
     display: flex;
     margin-left: 85px;
     margin-top: 25px;
     gap: 25px;
+}
+
+/*Newsletter Style*/
+
+.newsletter {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px 38px 200px 38px;
+    width: 85%;
+    height: 240px;
+    margin-left: 80px;
+}
+
+.sub-news {
+    color: #070211;
+    font-size: 40px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.sub-news-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.mail {
+    margin-top: 40px;
+}
+
+.mail-part {
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 15px;
+    width: 20%;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: red;
+    color: #fff;
+    font-family: 'Inter';
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 15px;
+    width: 10%;
+    margin-right: 10px;
+    border: none;
+}
+
+.subscribe-btn:hover {
+    background-color: pink;
+    color: #070211;
 }
