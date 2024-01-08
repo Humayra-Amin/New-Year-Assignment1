@@ -317,11 +317,32 @@
     width: 90%;
 }
 
-.portfolio-img{
-    display: flex;
-    gap:25px;
+.portfolio-heading{
+    color: #FF0000;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
 }
 
-.port-img{
-    
+.portfolio-title{
+    color: #070211;
+    font-size: 50px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    margin-bottom: 17px;
+    margin-top: -26px;
+}
+
+.first-section{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.second-section{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 25px;
+    gap: 25px;
 }
