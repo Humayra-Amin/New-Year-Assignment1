@@ -74,31 +74,60 @@
 
 /*Welcome Style*/
 
-.welcome-banner{
-    background-image: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
+.welcome-banner {
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
+    margin-left: 80px;
+    height: 600px;
+    width: 90%;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 250px;
-    margin-left: 70px;
-    width: 820px;
-    height: 110px;
-    border-radius: 20px;
-}
-
-.banner-content{
-    margin: 50px 150px 50px 0px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 20px;
+
 }
 
-.banner-title{
+.welcome-content {
+    margin-top: 65px;
+}
+
+.welcome-title {
     color: #fff;
+    font-size: 60px;
     font-family: 'Merriweather';
-    font-size: 70px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    font-weight: 900;
+    padding-left: 90px;
 }
 
-.banner-description{
+.welcome-description {
     color: #fff;
     font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 90px;
+}
+
+.welcome-image {
+    max-height: 350px;
+    padding-right: 140px;
+    padding-bottom: 105px;
+}
+
+.btn-primary {
+    background: #7d3806;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 35px;
+    margin-left: 95px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #070211;
+    font-size: 20px;
+    font-weight: 700;
 }
