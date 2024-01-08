@@ -131,3 +131,52 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+/*Address Style*/
+
+.address-section-heading {
+    background: linear-gradient(rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0));
+    margin-top: 120px;
+    margin-left: 300px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.address-content {
+    text-align: center;
+    padding: 100px 38px 200px 38px;
+    font-family: 'Inter';
+}
+
+.address-content h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.address-des {
+    color: red;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.locate-btn{
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.locate-btn:hover {
+    background-color: pink;
+    color: #070211;
+    font-size: 20px;
+    font-weight: 700;
+}
