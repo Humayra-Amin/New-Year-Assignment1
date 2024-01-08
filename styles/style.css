@@ -137,9 +137,9 @@
 .address-section-heading {
     background: linear-gradient(rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0));
     margin-top: 120px;
-    margin-left: 300px;
+    margin-left: 90px;
     height: 350px;
-    width: 60%;
+    width: 89%;
     border-radius: 20px;
 }
 
@@ -149,7 +149,7 @@
     font-family: 'Inter';
 }
 
-.address-content h3{
+.address-content h3 {
     color: black;
     font-size: 20px;
     font-family: 'Inter';
@@ -163,7 +163,7 @@
     font-weight: bold;
 }
 
-.locate-btn{
+.locate-btn {
     background: red;
     color: white;
     font-size: 20px;
@@ -178,5 +178,56 @@
     background-color: pink;
     color: #070211;
     font-size: 20px;
+    font-weight: 700;
+}
+
+/*New-Offer Style*/
+
+.new-offer {
+    margin: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-offer-part {
+    margin-right: 80px;
+}
+
+.new-offer-head {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.new-offer-coming {
+    font-size: 48px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+
+.new-offer-des {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Inter';
+}
+
+.new-year-img {
+    padding: 20px;
+    max-width: 300px;
+    border: 10px solid #FF0000;
+    border-radius: 100%;
+    margin-right: 150px;
+}
+
+.newyear-2024 {
+    margin-left: 30px;
+}
+
+.new-offer-2024 {
+    color: #FF0000;
+    font-size: 50px;
+    font-family: 'Inter';
     font-weight: 700;
 }
