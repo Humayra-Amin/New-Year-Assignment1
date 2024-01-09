@@ -332,12 +332,16 @@
     margin-bottom: 17px;
     margin-top: -26px;
 }
-
+/*  */
 .first-section {
     display: flex;
     margin-left: 85px;
     margin-top: 25px;
     gap: 25px;
+}
+
+.port-img:hover {
+   opacity: 0.6;
 }
 
 .second-section {
